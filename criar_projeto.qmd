@@ -1,0 +1,133 @@
+---
+title: "Como Usar o Positron"
+title-slide-attributes:
+    data-background-image: imagens/fundo_apoio1.png
+    data-background-size: 100%
+    #data-background-opacity: "0.85"
+format: 
+  revealjs: 
+    footer: "Material de Apoio"
+    logo: imagens/logo_unesp.png
+    slide-number: false
+    transition: slide
+    transition-speed: default
+    theme: [default, tema.scss]
+    show-slide-number: print
+    controls: true
+    width: 1280
+    height: 720
+    css: [custom.css]
+---
+
+## Como criar um projeto &#128194;
+
+<br>
+
+Um projeto em R é um diretório que serve para organizar todos os arquivos do seu trabalho.
+
+No Positron para criar um projeto, instale o seguinte pacote
+
+```{r}
+#| echo: true
+#| eval: false
+install.packages("usethis")
+```
+Para compilar o código use: `ctrl enter`. 
+
+<br>
+
+:::{.fragment}
+O vídeo a seguir mostra como instalar um pacote e criar um projeto `R`.
+:::
+
+---
+
+<div style="text-align: center;">
+  <video width="940" height="600" controls>
+    <source src="videos/criar_projeto.mp4" type="video/mp4">
+  </video>
+</div>
+
+&#128680; **Observação**: os pacotes do `R` só precisam ser instalados uma vez.
+
+## Como criar uma apresentação básica 🖼️ {transition="none"}
+
+<br>
+
+O bloco de código no início do arquivo é chamado de **Cabeçalho YAML** e serve para para configurar os metadados e as opções globais do seu documento no Quarto.
+
+```yaml
+---
+title: "Apresentação em Quarto"
+format: 
+  revealjs: 
+    transition: slide
+    transition-speed: default
+---
+```
+
+:::{.fragment}
+O formato **revealjs** é um conjunto padronizado de código aberto que permite a criação de apresentações de slides ou documentos usando tecnologias da web (HTML, CSS e JavaScript)
+:::
+
+---
+
+## Como criar uma apresentação básica 🖼️ {transition="none"}
+
+<br>
+
+O bloco de código no início do arquivo é chamado de **Cabeçalho YAML** e serve para para configurar os metadados e as opções globais do seu documento no Quarto.
+
+```yaml
+---
+title: "Apresentação em Quarto"
+format: 
+  revealjs: 
+    transition: slide
+    transition-speed: default
+---
+```
+
+O vídeo a seguir apresenta os passos para criar uma apresentação básica utilizando o `Quarto`.
+
+---
+
+<div style="text-align: center;">
+  <video width="940" height="660" controls>
+    <source src="videos/criar_apresentacao.mp4" type="video/mp4">
+  </video>
+</div>
+
+## Como abrir e fechar o projeto 🔓🔒
+
+<br>
+
+:::{.columns}
+::: {.column width="50%"}
+<div style="text-align: center;">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXRnN3Q4ODN1Mmdzd285Z3I4ZW55MWNvdDd6Y3BkNmtmYnpvbGllayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/LUYdflBIMBje6l55tF/giphy.gif" width="65%">
+</div>
+:::
+
+::: {.column width="50%"}
+Uma boa prática, sempre que terminar ou parar de trabalhar no projeto, **feche** o projeto.
+:::
+:::
+
+:::{.fragment}
+O vídeo a seguir mostra como abrir e fechar um projeto.
+:::
+
+---
+
+<div style="text-align: center;">
+  <video width="940" height="660" controls>
+    <source src="videos/abrir_folder.mp4" type="video/mp4">
+  </video>
+</div>
+
+---
+
+<div style="text-align: center;">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExejZnamRyd3d2dGE5bm9tc2lrdDVzbDk2ODI1dnYxMDF1bjEwaHB1MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lD76yTC5zxZPG/giphy.gif" width="70%">
+</div>
